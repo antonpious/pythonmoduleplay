@@ -18,6 +18,10 @@ You can do this by editing the ~/.zshrc in mac os and adding this line
 `export PYTHONPATH=/Users/<user>/<projectparentdirectory>/`
 
 Reload the terminal if already loaded using
-`source ~/.zshrc`  
+`source ~/.zshrc` 
+
+Note:  
+Setting this variable in the .env file for python-dotenv did not work  
+
 
 
