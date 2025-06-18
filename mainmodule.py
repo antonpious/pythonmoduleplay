@@ -10,13 +10,13 @@ from pythonmoduleplay import submodule1
 
 print("This is the main module")
 
-print("Calling Sub Module 11")
+print("Calling Sub Module 1-1-1")
 submodule11.funcsubmodule111()
 
-print("Calling Sub Module 12")
+print("Calling Sub Module 1-1-2")
 submodule11._funcsubmodule112()
 
-print("Directly calling Submodule 12")
+print("Directly calling Submodule 1-1-2")
 _funcsubmodule112()
 
 print("From Init File. The Submodule 11 is removed and can be directly accessed")
