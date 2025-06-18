@@ -1,5 +1,6 @@
 
-# none of this is working
+# import from sub modules
+# and expose it
 
 from .submodule11 import *
 from .submodule12 import *
