@@ -6,6 +6,9 @@ from pythonmoduleplay.submodule1.submodule11 import _funcsubmodule112
 
 from pythonmoduleplay import submodule1
 
+# This is without the parent package definition
+import submodule2
+
 
 
 print("This is the main module")
@@ -32,3 +35,7 @@ try:
 except Exception as ex:
     print(ex)
  
+
+# get from direct import of sub module2
+print(submodule2.submodule2_var1)
+print(submodule2.submodule2_var3)
